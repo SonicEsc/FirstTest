@@ -16,16 +16,16 @@ def player_stats ():
         print(f"{key} : {value}" )
     
 def player_move():
-    print("You Moved")
+    print("\nYou Moved\n")
 
 def player_attack():
-    print("You Attacked")
+    print("\nYou Attacked\n")
 
 isPlaying = True
 
 while(isPlaying):
 
-    print("START OF LOOP")
+    print("\nSTART OF LOOP\n")
 
     player_stats()
     
