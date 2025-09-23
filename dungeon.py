@@ -37,10 +37,10 @@ while(isPlaying):
         isPlaying = quit() #isPlaying = false
     
     elif (action == "move"):
-        isPlaying = player_move()
+         player_move()
 
     elif (action == "attack"):
-        isPlaying = player_attack()
+        player_attack()
 
     else:
         print("INVALID ACTION")
