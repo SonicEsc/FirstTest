@@ -1,4 +1,7 @@
 
+import random
+
+
 hero_stats = {
     "name" : "hero",
     "strength" : 7,
@@ -19,7 +22,11 @@ def player_move():
     print("\nYou Moved\n")
 
 def player_attack():
-    print("\nYou Attacked\n")
+    strength = (hero_stats["strength"])
+    print(strength)
+    crit = random()
+    damage = str(strength * crit) 
+    print("\nYou Attacked and did", damage, "damage.\n")
 
 isPlaying = True
 
