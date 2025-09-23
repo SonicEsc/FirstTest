@@ -19,7 +19,7 @@ def player_move():
     print("You Moved")
 
 def player_attack():
-    pass
+    print("You Attacked")
 
 isPlaying = True
 
